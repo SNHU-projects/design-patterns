@@ -1,5 +1,8 @@
 package com.gamingroom;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * A simple class to hold information about a team
  * <p>
@@ -12,34 +15,37 @@ package com.gamingroom;
  * @author coce@snhu.edu
  *
  */
-public class Team {
-	long id;
-	String name;
+public class Team extends Entity{
+
+	/**
+	 * A list of the active teams
+	 */
+	private List<Player> players = new ArrayList<Player>();
 	
 	/*
 	 * Constructor with an identifier and name
 	 */
 	public Team(long id, String name) {
-		this.id = id;
-		this.name = name;
+		super(id, name);
 	}
 
 	/**
 	 * @return the id
 	 */
 	public long getId() {
-		return id;
+		return super.getId();
 	}
 
 	/**
 	 * @return the name
 	 */
 	public String getName() {
-		return name;
+		return super.getName();
 	}
 
 	@Override
 	public String toString() {
-		return "Team [id=" + id + ", name=" + name + "]";
+
+		return "Team [id=" + super.getId() + ", name=" + super.getName() + "]";
 	}
 }

@@ -22,24 +22,33 @@ public class GameService {
 	 */
 	private static long nextGameId = 1;
 
+	/*
+	 * Holds the next team identifier
+	 */
+	private static long nextPlayerId = 1;
+
+    /*
+     * Holds the next player identifier
+     */
+    private static long nextTeamId = 1;
+
     // Create private var to track existence of GameService
-    private static GameService newGameService;
+    private static GameService service;
 
     // Default constructor
     private GameService() {
-
     }
 
     /**
      * Check for existing instance of GameService
      * @return
      */
-	public static GameService getNewGameService() {
+	public static GameService getInstance() {
 
         // Does GameService exist?
-	    if (newGameService == null) {
+	    if (service == null) {
             // If not, create a new instance in heap memory
-	        newGameService = new GameService();
+	        service = new GameService();
 	        System.out.println("New Game Service created.");
         } else {
             // If it already exists, just let us know
@@ -47,9 +56,8 @@ public class GameService {
         }
 
         // Return new or existing, but only the single instance
-        return newGameService;
+        return service;
     }
-
 
 	/**
 	 * Construct a new game instance
@@ -86,18 +94,6 @@ public class GameService {
 
 		// return the new/existing game instance to the caller
 		return game;
-	}
-
-	/**
-	 * Returns the game instance at the specified index.
-	 * <p>
-	 * Scope is package/local for testing purposes.
-	 * </p>
-	 * @param index index position in the list to return
-	 * @return requested game instance
-	 */
-	Game getGame(int index) {
-		return games.get(index);
 	}
 	
 	/**
@@ -169,4 +165,22 @@ public class GameService {
 	public int getGameCount() {
 		return games.size();
 	}
+
+    /**
+     * Returns the player whose turn is next
+     *
+     * @return the player whose turn is next
+     */
+    public long getNextPlayerId() {
+	    return nextPlayerId;
+    }
+
+    /**
+     * Returns the team whose turn is next
+     *
+     * @return the team whose turn is next
+     */
+    public long getNextTeamId() {
+        return nextTeamId;
+    }
 }

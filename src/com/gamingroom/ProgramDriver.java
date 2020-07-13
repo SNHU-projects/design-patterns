@@ -15,7 +15,7 @@ public class ProgramDriver {
 	public static void main(String[] args) {
 
 		// Initialize the singleton GameService instance
-		GameService service = GameService.getNewGameService();
+		GameService service = GameService.getInstance();
 		
 		System.out.println("\nAbout to test initializing game data...");
 		
