@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c63eea-da55-457b-8adb-c781ce742e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gamingroom/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/gamingroom/ProgramDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/gamingroom/ProgramDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamingroom/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamingroom/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/GameService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamingroom/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gamingroom/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gamingroom/Team.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -82,8 +80,9 @@
     <session id="-910716612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,125 +97,60 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="801" />
+          <entry key="java" value="1461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="801" />
+          <entry key="JAVA" value="1461" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#550#556#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Team.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding>
-                <element signature="e#493#501#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gamingroom/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="138">
+              <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="155" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#getNewGameService#0;class#GameService#0" />
                 <element signature="method#getInstance#0;class#GameService#0" />
                 <element signature="docComment;method#addGame#0;class#GameService#0" />
-                <element signature="method#addGame#0;class#GameService#0" />
                 <element signature="docComment;method#getGame#1;class#GameService#0" />
-                <element signature="docComment;method#getGame#2;class#GameService#0" />
-                <element signature="method#getGame#2;class#GameService#0" />
-                <element signature="e#4199#4200#0" expanded="true" />
-                <element signature="e#4141#4142#0" expanded="true" />
-                <element signature="e#4173#4174#0" expanded="true" />
-                <element signature="e#4407#4408#0" expanded="true" />
-                <element signature="e#4439#4440#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="351">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding>
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="510">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,12 +194,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/gamingroom/Entity.java" />
-        <option value="$PROJECT_DIR$/src/com/gamingroom/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/gamingroom/Team.java" />
-        <option value="$PROJECT_DIR$/src/com/gamingroom/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java" />
         <option value="$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java" />
         <option value="$PROJECT_DIR$/src/com/gamingroom/GameService.java" />
-        <option value="$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java" />
+        <option value="$PROJECT_DIR$/src/com/gamingroom/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/gamingroom/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/gamingroom/Team.java" />
       </list>
     </option>
   </component>
@@ -293,7 +227,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="948" />
+    <option name="width" value="840" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -301,42 +235,16 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CS 230 Project One Game App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS 230 Project One Game App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS 230 Project One Game App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS 230 Project One Game App" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS 230 Project One Game App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS 230 Project One Game App" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gamingroom" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594684610972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594851100656" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -388,12 +296,13 @@
       <workItem from="1594072733164" duration="14566000" />
       <workItem from="1594415592895" duration="1974000" />
       <workItem from="1594648147424" duration="1222000" />
-      <workItem from="1594668354418" duration="8725000" />
+      <workItem from="1594668354418" duration="11607000" />
+      <workItem from="1594906259591" duration="5526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28534000" />
+    <option name="totallyTimeSpent" value="36942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="948" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23951435" />
@@ -417,7 +326,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2395722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31657755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,36 +346,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23951435" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2395722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -477,15 +356,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/gamingroom/Game.java</url>
-          <line>29</line>
+          <line>30</line>
           <properties class="com.gamingroom.Game" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
@@ -543,100 +416,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#493#501#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="307">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/ProgramDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/SingletonTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gamingroom/GameService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="138">
+          <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="155" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getNewGameService#0;class#GameService#0" />
             <element signature="method#getInstance#0;class#GameService#0" />
             <element signature="docComment;method#addGame#0;class#GameService#0" />
-            <element signature="method#addGame#0;class#GameService#0" />
             <element signature="docComment;method#getGame#1;class#GameService#0" />
-            <element signature="docComment;method#getGame#2;class#GameService#0" />
-            <element signature="method#getGame#2;class#GameService#0" />
-            <element signature="e#4199#4200#0" expanded="true" />
-            <element signature="e#4141#4142#0" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
-            <element signature="e#4407#4408#0" expanded="true" />
-            <element signature="e#4439#4440#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="351">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#550#556#0" expanded="true" />
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gamingroom/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
           </folding>
         </state>
       </provider>

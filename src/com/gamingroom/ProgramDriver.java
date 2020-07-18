@@ -18,7 +18,7 @@ public class ProgramDriver {
 		GameService service = GameService.getInstance();
 		
 		System.out.println("\nAbout to test initializing game data...");
-		
+
 		// initialize with some game data
 		Game game1 = service.addGame("Game #1");
 		System.out.println(game1);

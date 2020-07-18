@@ -1,6 +1,7 @@
 package com.gamingroom;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -30,22 +31,41 @@ public class Team extends Entity{
 	}
 
 	/**
-	 * @return the id
+	 * Uses iterator pattern to find existing player with same name or
+     * adds unique named player to list
+	 *
+	 * @param name
+	 * @return Player instance
 	 */
-	public long getId() {
-		return super.getId();
-	}
+	public Player addPlayer(String name) {
 
-	/**
-	 * @return the name
-	 */
-	public String getName() {
-		return super.getName();
+		// a local teams instance
+		Player player = null;
+
+		// Instance iterator
+		Iterator<Player> playersIterator = players.iterator();
+
+		// Iterate over players list
+		while (playersIterator.hasNext()) {
+
+			// Set local Player var to next item in list
+			Player playerInstance = playersIterator.next();
+
+			// Does player name already exist?
+			if (playerInstance.getName().equalsIgnoreCase(name)) {
+				// If player name already exists, return the player instance
+				player = playerInstance;
+			} else {
+				// else add the player to the players list
+				players.add(player);
+			}
+		}
+
+		return player;
 	}
 
 	@Override
 	public String toString() {
-
 		return "Team [id=" + super.getId() + ", name=" + super.getName() + "]";
 	}
 }
