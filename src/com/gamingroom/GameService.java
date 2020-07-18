@@ -32,7 +32,7 @@ public class GameService {
     private static long nextTeamId = 1;
 
     // Create private var to track existence of GameService
-    private static GameService service;
+    private static GameService service = null;
 
     // Default constructor
     private GameService() {
